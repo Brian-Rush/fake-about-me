@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-size: border-box;
+}
+
+body {
+  background-color: #ffc0a9;
+  font-family: Josefin Slab;
+  font-size: 24px;
+}
+
+a {
+  color: #FF8598;
+}
+
+a:hover {
+  color: #7D8A2E;
+}
+
+/*header*/
+.header {
+  height: 75px;
+  background-color: #C9D787;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #7D8A2E;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-family: Sacramento;
+  font-size: 50px;
+  float: left;
+}
+
+#potion {
+  height: 60px;
+}
+
+h3 {
+  font-family: Sacramento;
+  font-size: 35px;
+  float: right;
+  margin-right: 15px;
+}
+
+/*about text*/
+.about-text {
+  float: left;
+  width: 60%;
+  margin-left: 20px;
+}
+
+.about-text p:first-of-type {
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+}
+
+/*sidebar*/
+.sidebar {
+  float: right;
+  width: 30%;
+}
+
+/*photos*/
+.photos {
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.photos img {
+  width: 33%;
+  padding: none;
+}
