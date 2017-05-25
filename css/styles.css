@@ -68,6 +68,9 @@ h3 {
 .sidebar li {
   list-style-position: inside;
   list-style-image: url(../img/potion-mini.png);
+}
+
+.sidebar a {
   text-decoration: none;
 }
 
